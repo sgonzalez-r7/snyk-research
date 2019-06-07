@@ -11,6 +11,8 @@
 - Add your Snyk API Key to `.env`
 
 ## Running
+
+### get
 ```
 go run get.go [endpoint]
 
@@ -18,5 +20,10 @@ go run get.go
    => GET https://snyk.io/api/v1
 
 go run get.go org/:orgID/projects
-   => GET https://snyk.io/api/v1/org/:orgID/projects
+   => GET https://snyk.io/api/v1/org/:orgId/projects
+```
+
+### get-latest-issue-counts
+```
+go run get-latest-issue-counts.go <:orgId>
 ```
