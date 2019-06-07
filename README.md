@@ -1,6 +1,6 @@
 # Snyk research
 
-## [API - snyk.apib](https://github.com/sgonzalez-r7/snyk-research/blob/master/snyk.apib)
+## [API - snyk.apib](https://github.com/sgonzalez-r7/snyk-research/blob/master/snyk.apib.md)
 
 ## Setup
 - `cd $GOPATH/src`
